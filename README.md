@@ -1,38 +1,25 @@
-# sv
+# Default Template from SvelteKit
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This repository contains the default template for SvelteKit, I primarily use it for my **Svelte CLI** tool. The goal is to provide a simple and reusable template for creating Svelte applications, without the need to use the existing **Svelte CLI**.
 
-## Creating a project
+## About
 
-If you're seeing this, you've probably already done this step. Congrats!
+- This project is mainly intended to be cloned and used as a template for quickly starting a Svelte project.
+- It will be updated regularly to include the latest improvements and best development practices.
+- **Nothing in this repository is proprietary** – it's just a template and can be used by anyone, whether for personal or professional projects.
+  
+## Usage
 
-```bash
-# create a new project in the current directory
-npx sv create
+### Cloning the Template
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+If you want to use this template, you can simply clone it using the following command:
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+git clone https://github.com/your-username/svelte-template.git
 ```
 
-## Building
+Then, you can start customizing your project as needed.
 
-To create a production version of your app:
+## Regular Updates
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+I aim to update this repository regularly to ensure it stays current with the latest developments in **Svelte**.
